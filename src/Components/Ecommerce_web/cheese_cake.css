@@ -1,0 +1,70 @@
+.cheese-cake h1{
+    color:red;
+    font-size: 200;
+    margin-top:50px;
+}
+.cheese-cake{
+    padding:.8rem 3%;
+    display: block;
+    background-color: #ffffff;
+ 
+    
+  
+}
+.cheese-cake .wrapper .cheese_card{
+    text-align: center;
+    background-color:rgb(251, 185, 196);
+    border:.1rem solid #f0ba87;
+    height:59vh;
+    border-radius: 2%;
+}
+.cheese-cake .wrapper .cheese_card:hover{
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.cheese-cake .wrapper .cheese_card .icons a{
+   height:5rem;
+   width:5rem;
+   font-size:2rem;
+   color:#fff;
+   line-height:5rem;
+   border:.1rem solid #f0ba87;
+   margin:.3rem;
+}
+.cheese-cake .wrapper .cheese_card .icons a:hover{
+    background-color:orange;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+
+}
+
+.cheese-cake .wrapper .cheese_card .img{
+    padding: 1rem 0;
+    
+}
+.cheese-cake .wrapper .cheese_card .img img{
+   height: 16rem;
+   width:200px;
+}
+.cheese-cake .wrapper .cheese_card .content h3{
+    color:#fff;
+    font-size: 2.5rem;
+    margin-bottom:1rem 0;
+}
+.cheese-cake .wrapper .cheese_card .content .stars{
+    padding:1.8rem;
+}
+.cheese-cake .wrapper .cheese_card .content .stars i{
+    color:orange;
+     font-size:1.7rem;
+}
+.cheese-cake .wrapper .cheese_card .content .price{
+color:#ffff;
+font-size: 1.8rem;
+}
+.cheese-cake .wrapper .cheese_card .content .price span{
+    color:#ffff;
+    font-size: 2rem;
+    text-decoration: line-through;
+   
+}

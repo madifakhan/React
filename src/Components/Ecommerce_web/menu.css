@@ -1,0 +1,86 @@
+
+
+.new_arrivals{
+    padding:2rem 6%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), #222223), url(menu4.jpg); 
+    margin-top:2px;
+  background-size: cover;
+  background-position: center;
+  
+  
+   
+}
+.title{
+    text-align: center;
+    color:red;
+    padding-top :2.2rem;
+    padding-bottom :2.2rem;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 0 #c0dbea ,-1px -1px 0 #c0dbea,1px -1px 0 #c0dbea,-1px 1px 0 #c0dbea;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: 10;
+    
+}
+
+.new_arrivals .wrapper .items-card {
+    
+    /* background-color:rgba(228, 110, 31, 0.748) ; */
+    
+    padding:2rem 2rem;
+    padding:5px 0;
+    text-align: center;
+    border-radius:2%;
+
+    width:200px;
+  
+   
+ 
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(24rem,1fr));
+    gap:2rem;
+    transform-origin:top center;
+    
+
+}
+.new_arrivals .wrapper .items-card:hover{
+   transform: scaleY(1.1);
+   box-shadow: 0 0 10px rgba(0,0,0.9);
+   padding:1px;
+  
+}
+
+.new_arrivals .wrapper .items-card img{
+    height:26vh;
+    width:180px;
+    border-radius: 1px;
+}
+.new_arrivals .wrapper .items-card h3{
+    color:#fff;
+    font-size:1.7rem;
+    padding:0.6rem 0;
+}
+.new_arrivals .wrapper .items-card .price{
+    color:#fff;
+    font-size:1.4rem;
+    padding:0.5rem 0;
+}
+.new_arrivals .wrapper .items-card span{
+    color:#fff;
+    font-size:1.3rem;
+    text-decoration: line-through;
+}
+.new_arrivals .wrapper .items-card .button{
+    background-color: #f3971b;
+    color:white;
+    font-weight: bold;
+    font-size: 13px;
+    font-family:'Times New Roman', Times, serif;
+    padding:8px;
+    border-radius: 4px;
+    box-shadow: 0,0,0,rgba(0,0,0,0.5);
+    cursor:pointer;
+    width:88px;
+}
